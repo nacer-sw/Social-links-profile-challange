@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("/home/siw01/Documents/myPtojects/web_Dev/webproj_repos/social-links-profile-main/assets/fonts/static/Inter-Bold.ttf")
+    format("ttf");
+}
+html {
+  width: 1440px;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  color: hsl(0, 0%, 100%);
+  text-transform: capitalize;
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter-Regular", sans-serif;
+}
+.linktree-outer-block {
+  height: 500px;
+  width: 400px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 3%;
+  display: flow-root;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 7.9px;
+  margin: 8% auto;
+  contain: content;
+  overflow-y: scroll;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  width: 60px;
+  display: block;
+  margin: auto;
+}
+
+.profile-name {
+  font-size: 15px;
+  font-weight: 600;
+  font-style: revert-layer;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.user-location {
+  color: hsl(75, 94%, 57%);
+  font-size: 8.5px;
+  font-weight: 688;
+  margin-top: 5px;
+}
+.links {
+  font-size: small;
+  font-weight: 600;
+  margin: auto;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 11px;
+}
+
+.user-bio {
+  font-size: 10px;
+  font-weight: 500;
+  display: inline-block;
+  color: hsl(0, 0%, 70%);
+  text-transform: none;
+}
+.user-bio q:first-letter {
+  text-transform: capitalize;
+}
+.links td a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: smaller;
+}
+.links td {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  padding: 6px;
+  display: inline-block;
+  width: 82%;
+  border-radius: 7px;
+}
+.links tr {
+  border-radius: 5%;
+}
+td:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}
+
+tr:hover a {
+  color: hsl(0, 0%, 8%);
+}
