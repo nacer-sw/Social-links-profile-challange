@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Inter-Regular";
-  src: url("/home/siw01/Documents/myPtojects/web_Dev/webproj_repos/social-links-profile-main/assets/fonts/static/Inter-Bold.ttf")
-    format("ttf");
+  src: url("/assets/fonts/static/Inter-Bold.ttf") format("ttf");
 }
 html {
   width: 1440px;
