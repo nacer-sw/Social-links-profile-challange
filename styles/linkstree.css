@@ -16,8 +16,8 @@ body {
   font-family: "Inter-Regular", sans-serif;
 }
 .linktree-outer-block {
-  height: 399px;
-  width: 291px;
+  height: 404px;
+  width: 302px;
   background-color: hsl(0, 0%, 12%);
   border-radius: 3%;
   display: flow-root;
