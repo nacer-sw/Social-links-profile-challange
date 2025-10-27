@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [liksTree](https://your-live-site-url.com)
+- Live Site URL: [github](https://nacer-sw.github.io/Social-links-profile-challange/https://your-live-site-url.com)
 
 ## My process
 
@@ -48,11 +48,7 @@ In this challenge, I learned a lot of things, such as:
 
 ```html
 <div class="linktree-outer-block">
-  <img
-    class="profile-pic"
-    src="/home/siw01/Documents/myPtojects/web_Dev/webproj_repos/social-links-profile-main/assets/images/s1w.png"
-    alt="profile picture"
-  />
+  <img class="profile-pic" src="assets/images/s1w.png" alt="profile picture" />
   <p class="profile-name">nacer salem</p>
   <p class="user-location">london, unated kingdom</p>
   <p class="user-bio"><q>Front-end developer and avid reader.</q></p>
