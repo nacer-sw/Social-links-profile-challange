@@ -1,7 +1,10 @@
 @font-face {
-  font-family: "Inter-Regular";
-  src: url("/assets/fonts/static/Inter-Bold.ttf") format("ttf");
+  font-family: "Inter";
+  src: url("../assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
+
 html {
   width: 1440px;
   height: 100%;
@@ -12,7 +15,7 @@ body {
   color: hsl(0, 0%, 100%);
   text-transform: capitalize;
   background-color: hsl(0, 0%, 8%);
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .linktree-outer-block {
   height: 404px;
@@ -30,7 +33,7 @@ body {
 
 .profile-pic {
   border-radius: 100%;
-  width: 60px;
+  width: 71px;
   display: block;
   margin: auto;
 }
@@ -39,7 +42,7 @@ body {
   font-size: 15px;
   font-weight: 600;
   font-style: revert-layer;
-  display: inline-block;
+  display: block;
   margin-bottom: 0px;
 }
 .user-location {
