@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [github](https://nacer-sw.github.io/Social-links-profile-challange/https://your-live-site-url.com)
+- Live Site URL: [github](https://nacer-sw.github.io/Social-links-profile-challange/)
 
 ## My process
 
